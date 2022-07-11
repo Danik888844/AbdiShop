@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Abdi</string>
+
+    <!-- TOAST -->
+    <string name="pieces">| pcs</string>
+    <string name="maxOneHungred">Max order 100 pcs.</string>
+    <string name="minOne">Min order 1 pcs.</string>
+    <string name="added">pcs. added</string>
+    <string name="dontmatch">All fields must be filled!</string>
+    <string name="bought">Bought</string>
+
+    <!-- INFO ACTIVITY -->
+    <string name="specifications">Specifications</string>
+    <string name="brand">Brand: </string>
+    <string name="color">Color: </string>
+    <string name="count">Count: </string>
+    <string name="price">Price: </string>
+    <string name="index">Index: </string>
+    <string name="type">Paper type: </string>
+    <string name="format">Paper format: </string>
+    <string name="color_count">Color Count: </string>
+    <string name="papers_count">Papers Count: </string>
+    <string name="clasp_type">Type of clasp: </string>
+    <string name="material">Material: </string>
+
+    <!-- BUTTON -->
+    <string name="buy">Buy</string>
+    <string name="to_cart">To cart</string>
+    <string name="back">Back</string>
+    <string name="enter">Enter</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- REGISTRATION -->
+    <string name="login">Login:</string>
+    <string name="password">Password:</string>
+    <string name="firstname">First name:</string>
+    <string name="lastname">Last name:</string>
+    <string name="register">Register</string>
+
+    <!-- MENU -->
+    <string name="exit">Delete user</string>
+    <string name="profile">Profile</string>
+    <string name="categories">Product categories</string>
+    <string name="all_products">All products</string>
+
+    <!-- CATEGORIES -->
+    <string name="chalk">Chalk</string>
+    <string name="colored_paper">Colored paper</string>
+    <string name="diary">Diary</string>
+    <string name="penbox">Pen Box</string>
+
+    <string name="cart">Cart</string>
+    <string name="total_cost">Total: </string>
+</resources>

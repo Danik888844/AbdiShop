@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/firstname"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/etName"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/lastname"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/etSurname"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/login"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/etLogin"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/password"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/etPassword"
+        android:layout_marginBottom="50dp"
+        android:inputType="textPassword"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/register"
+        android:id="@+id/btnRegister"
+        android:textSize="8pt"> </Button>
+
+</LinearLayout>

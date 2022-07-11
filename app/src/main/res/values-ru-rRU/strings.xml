@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Abdi</string>
+
+    <!-- TOAST -->
+    <string name="pieces">| шт.</string>
+    <string name="maxOneHungred">Максимальный заказ 100 шт.</string>
+    <string name="minOne">Минимальный заказ 1 шт.</string>
+    <string name="added">шт. добавлено</string>
+    <string name="dontmatch">Все поля должны быть заполнены!</string>
+    <string name="bought">Куплено</string>
+
+    <!-- INFO ACTIVITY -->
+    <string name="specifications">Характеристики</string>
+    <string name="brand">Бренд: </string>
+    <string name="color">Цвет: </string>
+    <string name="count">Кол-во: </string>
+    <string name="price">Цена: </string>
+    <string name="index">Индекс: </string>
+    <string name="type">Тип листа: </string>
+    <string name="format">Формат листа: </string>
+    <string name="color_count">Кол-во цветов: </string>
+    <string name="papers_count">Кол-во листов: </string>
+    <string name="clasp_type">Тип застежки: </string>
+    <string name="material">Материал: </string>
+
+    <!-- BUTTON -->
+    <string name="back">Назад</string>
+    <string name="buy">Купить</string>
+    <string name="to_cart">В корзину</string>
+    <string name="enter">Войти</string>
+    <string name="refresh">Обновить</string>
+
+    <!-- REGISTRATION -->
+    <string name="login">Ваш логин:</string>
+    <string name="password">Пароль:</string>
+    <string name="firstname">Имя:</string>
+    <string name="lastname">Фамилия:</string>
+    <string name="register">Регистрация</string>
+
+    <!-- MENU -->
+    <string name="exit">Удалить пользователя</string>
+    <string name="profile">Профиль</string>
+    <string name="categories">Категории товаров</string>
+    <string name="all_products">Все товары</string>
+
+    <!-- CATEGORIES -->
+    <string name="chalk">Мел</string>
+    <string name="colored_paper">Цветная бумага</string>
+    <string name="diary">Дневник</string>
+    <string name="penbox">Пенал</string>
+
+    <string name="cart">Корзина</string>
+    <string name="total_cost">Итого: </string>
+
+
+</resources>

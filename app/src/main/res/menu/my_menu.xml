@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/exit"
+        android:orderInCategory="4"
+        android:id="@+id/action_logout"/>
+
+    <item android:title="@string/categories"
+        android:orderInCategory="3"
+        android:id="@+id/action_categories"/>
+
+    <item android:title="@string/all_products"
+        android:orderInCategory="2"
+        android:id="@+id/action_products"/>
+
+    <item android:title="@string/profile"
+        android:orderInCategory="1"
+        android:id="@+id/action_profile"/>
+</menu>

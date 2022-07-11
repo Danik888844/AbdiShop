@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginStart="32dp"
+    android:layout_marginEnd="32dp"
+    android:layout_marginTop="16dp"
+    app:cardCornerRadius="8dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:src="@drawable/gvr_priora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:lines="3"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:text="Name" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="4dp"
+                    android:textColor="#00B3AD"
+                    android:gravity="right"
+                    android:text="0 ₸" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:text="@string/pieces" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.4"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imgBtnPlus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/plus" />
+
+            <TextView
+                android:id="@+id/tvCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="24sp"/>
+
+            <ImageButton
+                android:id="@+id/imgBtnMinus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/minus" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
